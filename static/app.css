@@ -46,7 +46,7 @@ header {
   margin-bottom: 50px;
 }
 
-label {
+label, .combined h3 {
   display: block;
   font-size: 20px;
   font-weight: 500;
@@ -88,6 +88,10 @@ button:hover {
 
 .combined *:not(:first-child) {
   margin-left: -5px;
+}
+
+.calendar {
+  margin: 2rem auto;
 }
 
 a {
